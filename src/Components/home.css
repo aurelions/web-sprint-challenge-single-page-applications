@@ -1,0 +1,133 @@
+.App {
+    text-align: center;
+  }
+  
+  body{
+    background-color: #282c34;
+  }
+  
+  * {
+    font-size: 62.6%;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  h1 {
+    font-size: 5rem;
+    text-align: center;
+    color: white;
+    font-family: 'Dosis';
+    margin-bottom: 2vh;
+    text-shadow: crimson 4px 3px;
+  }
+  
+  img.pizza {
+    height: 60vh;
+    width: 100vw;
+    border: 2px solid white;
+  }
+  
+  ol{
+    display: inline-block;
+  }
+  
+  li{
+    display: inline-block;
+    font-size: 3rem;
+    color: white;
+    text-decoration: none;
+  }
+  
+  nav{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+  }
+  
+  li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    color: #b8b8b8;
+  }
+  
+  h2{
+    color: white;
+    font-size: 4rem;
+    font-family: 'Raleway';
+    text-align: center;
+    margin-top: -50vh;
+    text-shadow: 3px 4px black;
+  }
+  
+  button{
+    font-size: 3.5rem;
+    font-family: 'Raleway';
+    text-shadow: 2px 1px black;
+    margin-left: 10%;
+    background-color: #282c34;
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+  
+  button:hover{
+    cursor: pointer;
+    opacity: 70%;
+  }
+  
+  section{
+    display: flex;
+    margin: auto;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 50vh;
+  
+    align-items: center; 
+    justify-content: space-around;
+  }
+  
+  section img{
+    height: 500px;
+    width: 500px;
+    justify-content: space-between;
+  }
+  
+  h3{
+    color: white;
+    font-size: 3rem;
+    font-family: 'Raleway';
+    text-decoration: underline;
+    text-align: justify;
+  }
+  
+  section p{
+    color: white;
+    font-size: 1.5rem;
+    font-family: 'Raleway';
+    text-align: center;
+  }
+  
+  section ul{
+    display: flex;
+    justify-content: center;
+    margin-left: -2vw;
+  }
+  
+  section li{
+    font-family: 'Raleway';
+    color: white;
+    font-size: 1.5rem;
+    list-style: none;
+    margin-left: 2vw;
+    background-color: #b8b8b8;
+    margin-bottom: 2vh;
+    text-shadow: black 2px 2px;
+    padding: 0px 5px;
+  }
+  
+  section li:hover{
+    color: black;
+    text-shadow: white 1px 1px;
+  }
